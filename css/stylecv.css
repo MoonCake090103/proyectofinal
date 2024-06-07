@@ -1,0 +1,66 @@
+body {
+    background-color: #708090;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+form {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: auto;
+}
+
+h1 {
+    color: #ff7300;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"], input[type="tel"], input[type="email"], input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    box-sizing: border-box;
+}
+
+input[type="button"] {
+    background-color: #ff7300;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+#cv-output {
+    background-color: white;
+    color: black;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: 20px auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+#cv-output h1 {
+    color: #333;
+}
+
+#cv-output p {
+    margin: 5px 0;
+}
+
+#cv-output img {
+    max-width: 100px;
+    height: auto;
+    border-radius: 50%;
+}

@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start; /* Alinear los proyectos en la parte superior */
+    min-height: 100vh;
+    background: linear-gradient(135deg, #D4FC79, #96E6A1); /* Degradado de verde claro a un verde más intenso */
+}
+
+
+
+
+h1 {
+    text-align: center; /* Centra el texto horizontalmente */
+    font-size: 70px; /* Tamaño grande de fuente */
+    margin-top: 20px; /* Espacio en la parte superior */
+    clear: both; /* Asegura que no haya elementos flotantes a su lado */
+    width: 100%; /* Asegura que el título se extienda a lo ancho del contenedor */
+
+    font-family: "Cookie", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+h3{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+p{
+    font-family: "Cookie", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 28px;
+}
+
+
+
+.contenedor {
+    margin: 20px;
+    text-align: center;
+}
+
+.detalles {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.detalles img {
+    border-radius: 10px; /* Ajusta según sea necesario */
+    width: 200px; /* Tamaño uniforme para todas las imágenes */
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.btn, a {
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contenedorboton {
+    position: fixed;
+    bottom: 20px;
+    width: 100%;
+    text-align: justify;
+}
+
+.botonregreso {
+    position: fixed;
+    bottom: 20px;
+    left: 20px; /* Ajusta la distancia del lado izquierdo */
+    width: 200px;
+    padding: 15px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+}
